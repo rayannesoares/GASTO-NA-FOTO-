@@ -1,0 +1,24 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background: #f2f5f9;
+  color: #22304a;
+}
+
+.caixa-total {
+  background: #0f766e;
+  color: #ffffff;
+  border-radius: 18px;
+  padding: 24px;
+  text-align: center;
+}
+
+.caixa-total p {
+  font-size: 13px;
+  color: #b9e0dc;
+}
+
+.caixa-total .total {
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+}

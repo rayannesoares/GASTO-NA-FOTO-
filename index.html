@@ -1,0 +1,33 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GASTO DE FOTO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="./icon.png">
+  </head>
+  <body>
+    <div class="caixa-topo">
+      <h1> Gasto na foto </h1>
+      <p>Fotografe seus comprovantes e acompanhe seus gastos</p>
+    </div>
+
+    <div class="caixa-total">
+    
+    <p class="total">R$ 0,00</p>
+    <p class="quantos">0 comprovantes lidos</p>
+  </div>
+  
+  <label class="caixa-foto">
+     🧾 Toque para fotografar o comprovante
+   <input type="file" class="foto" accept="image/*" onchange="lerFoto()"> 
+  </label>
+    
+  <div class="lista"></div>
+  <div class="rodape"></div>
+
+<script src="https://js.puter.com/v2/"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
